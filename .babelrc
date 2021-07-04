@@ -1,0 +1,7 @@
+{
+    "presets": ["env"], // 由于preset安装的是babel-preset-env，所以数组里填env
+    "plugins": [
+        "babel-plugin-transform-runtime",
+        "transform-decorators-legacy" // 装饰器插件
+    ] // babel插件
+}
